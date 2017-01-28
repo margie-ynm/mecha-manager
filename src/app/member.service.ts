@@ -28,5 +28,9 @@ export class MemberService {
                                   position: localUpdatedMember.position,
                                   year: localUpdatedMember.year});
   }
+  deleteMember(localMemberToDelete) {
+    var memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
 
 }
