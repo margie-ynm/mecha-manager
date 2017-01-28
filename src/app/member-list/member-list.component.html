@@ -7,7 +7,8 @@
   <option value="retentionRecruitment">Retention and Recruitment</option>
   <option value="budgetDirector">Budget Director</option>
 </select>
-
+<br>
+<br>
 <div *ngFor="let member of members | async | positionness:filterByPositionness" class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(member)">{{member.name}}</h3>

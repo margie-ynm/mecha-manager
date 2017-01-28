@@ -10,3 +10,18 @@
 .btn.btn-primary {
   margin-top: 15px;
 }
+
+h1 {
+  text-align: center;
+}
+
+.image-container {
+  /*background-color: #282629;*/
+  display: flex;
+  justify-content: center;
+  padding:10px;
+}
+
+.container {
+  padding-bottom: 80px;
+}
