@@ -1,3 +1,4 @@
 export class Member {
-  constructor (public name: string, public position: string, public year: string, public boardMember: boolean){}
+  public boardMember: boolean = false;
+  constructor (public name: string, public position: string, public year: string){}
 }
