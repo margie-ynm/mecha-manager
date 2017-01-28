@@ -3,6 +3,7 @@ import { Member } from './member.model';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 
+
 @Injectable()
 export class MemberService {
   members: FirebaseListObservable<any[]>;
@@ -13,6 +14,10 @@ export class MemberService {
 
   getMembers() {
     return this.members;
+  }
+
+  getMemberById(memberId: string) {
+    return this.angularFire.database.object('members/' + memberId);
   }
 
 }

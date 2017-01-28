@@ -1,3 +1,4 @@
-<p>
-  member-detail works!
-</p>
+<div class="panel panel-default panel-body">
+  <h3>Mechista:</h3><p>{{(memberToDisplay | async)?.name}}, {{(memberToDisplay | async)?.year}} Year</p>
+  <h4>Position:</h4><p>{{(memberToDisplay | async)?.position}}</p>
+</div>
