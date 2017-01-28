@@ -1,42 +1,34 @@
 { "members": [{
     "name": "Valerio Olguiin",
     "position": "External Director",
-    "year": "4th",
-    "boardMember": false
+    "year": "4th"
     }, {
     "name": "Perla Alvarez",
     "position": "Internal Director",
-    "year": "3rd",
-    "boardMember": false
+    "year": "3rd"
     }, {
     "name": "Julio Martinez",
     "position": "Retention and Recruitment",
-    "year": "3rd",
-    "boardMember": false
+    "year": "3rd"
     }, {
     "name": "Ednaly Garcia",
     "position": "Budget Director",
-    "year": "2nd",
-    "boardMember": false
+    "year": "2nd"
     }, {
     "name": "Leah Barrera",
     "position": "general member",
-    "year": "3rd",
-    "boardMember": false
+    "year": "3rd"
     }, {
     "name": "Eva Cortez",
     "position": "general member",
-    "year": "4th",
-    "boardMember": false
+    "year": "4th"
     }, {
     "name": "Jaime Maldonado",
     "position": "general member",
-    "year": "5th",
-    "boardMember": false
+    "year": "5th"
     }, {
     "name": "Veronica Barreras",
     "position": "general member",
-    "year": "1st",
-    "boardMember": false
+    "year": "1st"
   }]
 }
