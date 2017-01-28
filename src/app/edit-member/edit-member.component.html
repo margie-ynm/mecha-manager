@@ -1,0 +1,14 @@
+<h4>Edit Album</h4>
+
+<label>Member Name:</label>
+<input [(ngModel)]="selectedMember.name">
+<br>
+
+<label>Position:</label>
+<input [(ngModel)]="selectedMember.position">
+<br>
+
+<label>Student Year:</label>
+<input [(ngModel)]="selectedMember.year">
+
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>
