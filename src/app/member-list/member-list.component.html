@@ -1,5 +1,13 @@
 <h1>Members:</h1>
-<div *ngFor="let member of members | async" class="panel panel-default">
+<select (change)="onChange($event.target.value)">
+  <option value="allMembers" selected="selected">All Members</option>
+  <option value="externalDirector">External Director</option>
+  <option value="internalDirector">Internal Director</option>
+  <option value="retentionRecruitment">Retention and Recruitment</option>
+  <option value="budgetDirector">Budget Director</option>
+</select>
+
+<div *ngFor="let member of members | async | positionness:filterByPositionness" class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(member)">{{member.name}}</h3>
     <div *ngIf="currentRoute === '/admin'">

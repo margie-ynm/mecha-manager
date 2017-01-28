@@ -13,6 +13,7 @@ import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { EditMemberComponent } from './edit-member/edit-member.component';
+import { PositionnessPipe } from './positionness.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     AboutComponent,
     MemberListComponent,
     MemberDetailComponent,
-    EditMemberComponent
+    EditMemberComponent,
+    PositionnessPipe
   ],
   imports: [
     BrowserModule,
